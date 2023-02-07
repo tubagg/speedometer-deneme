@@ -1,0 +1,303 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.speedometer-container{
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 50%;
+    margin: 50px auto;
+    position: relative;
+}
+.center-point{
+    width: 20px;
+    height: 20px;
+    background: black;
+    border-radius: 50%;
+    position:absolute;
+    top:137px;
+    left: 137px;
+    z-index: 6;
+}
+.speedometer-scale{
+    width:8px;
+    height: 280px;
+    background-color: black;
+    position: absolute;
+    left:143px;
+    top:7px;
+    
+}
+.speedometer-scale-1{
+    transform: rotate(-90deg);
+
+}
+.speedometer-scale-2{
+    transform: rotate(-80deg);
+
+}
+.speedometer-scale-3{
+    transform: rotate(-70deg);
+
+}
+.speedometer-scale-4{
+    transform: rotate(-60deg);
+
+}
+.speedometer-scale-5{
+    transform: rotate(-50deg);
+
+}
+.speedometer-scale-6{
+    transform: rotate(-40deg);
+
+}
+.speedometer-scale-7{
+    transform: rotate(-30deg);
+
+}
+.speedometer-scale-8{
+    transform: rotate(-20deg);
+
+}
+.speedometer-scale-9{
+    transform: rotate(-10deg);
+
+}
+.speedometer-scale-10{
+    transform: rotate(0deg);
+
+}
+.speedometer-scale-11{
+    transform: rotate(10deg);
+
+}
+.speedometer-scale-12{
+    transform: rotate(20deg);
+
+}
+.speedometer-scale-13{
+    transform: rotate(30deg);
+
+}
+.speedometer-scale-14{
+    transform: rotate(40deg);
+
+}
+.speedometer-scale-15{
+    transform: rotate(50deg);
+
+}
+.speedometer-scale-16{
+    transform: rotate(60deg);
+
+}
+.speedometer-scale-17{
+    transform: rotate(70deg);
+
+}
+.speedometer-scale-18{
+    transform: rotate(80deg);
+
+}
+.speedometer-scale-19{
+    transform: rotate(90deg);
+
+}
+
+.speedometer-scale-1.active{
+    background-color: #2cc50d;
+
+}
+.speedometer-scale-2.active{
+    background-color: #2cc50d;
+
+}
+.speedometer-scale-3.active{
+    background-color: #2cc50d;
+
+}
+.speedometer-scale-4.active{
+    background-color: #2cc50d;
+
+}
+.speedometer-scale-5.active{
+    background-color: #6cde55f1;
+
+}
+.speedometer-scale-6.active{
+    background-color: #8dd518;
+
+}
+.speedometer-scale-7.active{
+    background-color: #9ac50d;
+
+}
+.speedometer-scale-8.active{
+    background-color: #c1bf45;
+
+}
+.speedometer-scale-9.active{
+    background-color: #c5a60d;
+
+}
+.speedometer-scale-10.active{
+    background-color: #c59a0d;
+
+}
+.speedometer-scale-11.active{
+    background-color: #c57b0d;
+
+}
+.speedometer-scale-12.active{
+    background-color: #c5780d;
+
+}
+.speedometer-scale-13.active{
+    background-color: #c5570d;
+
+}
+.speedometer-scale-14.active{
+    background-color: #c5440d;
+
+}
+
+.speedometer-scale-15.active{
+    background-color: #c5320d;
+
+}
+.speedometer-scale-16.active{
+    background-color: #a11607;
+
+}
+.speedometer-scale-1.active{
+    background-color: #f00606;
+
+}
+.speedometer-scale-1.active{
+    background-color: #c50d0d;
+
+}
+.speedometer-scale-1.active{
+    background-color: #ff0505;
+
+}
+
+.speedometer-center-hide{
+    width:250px;
+    height:250px;
+    background-color:white;
+    border-radius: 50%;
+    position: absolute;
+    top:22px;
+    left:22px;
+    z-index:5;
+}
+
+.speedometer-bottom-hide{
+    width:320px;
+    height:250px;
+    background-color: white;
+    position:absolute;
+    z-index:8;
+    top:160px;
+    left:-14px;
+    border-top: 1px solid black;
+}
+.arrrow-container{
+    width:160px;
+    height:160px;
+    background-color:transparent;
+    position: absolute;
+    z-index: 10;
+    top:67px;
+    left:67px;
+}
+.arrow-wrapper{
+    width:160px;
+    height:160px;
+    background-color:transparent;
+    position: relative;
+    transition: all 0.4s;
+}
+.arrow{
+    width:110px;
+    height:4px;
+    background-color: blue;
+    position: absolute;
+    top:78px;
+    left:-30px;
+}
+.speed-0 {
+    transform: rotate(0deg);
+}
+.speed-10 {
+    transform: rotate(10deg);
+}.speed-20 {
+    transform: rotate(20deg);
+}.speed-30 {
+    transform: rotate(30deg);
+}.speed-40 {
+    transform: rotate(40deg);
+}.speed-50 {
+    transform: rotate(50deg);
+}.speed-60 {
+    transform: rotate(60deg);
+}.speed-70 {
+    transform: rotate(70deg);
+}.speed-80 {
+    transform: rotate(80deg);
+}.speed-90 {
+    transform: rotate(90deg);
+}.speed-100 {
+    transform: rotate(100deg);
+}.speed-110 {
+    transform: rotate(110deg);
+}.speed-120 {
+    transform: rotate(120deg);
+}.speed-130 {
+    transform: rotate(130deg);
+}.speed140 {
+    transform: rotate(140deg);
+}.speed-150 {
+    transform: rotate(150deg);
+}.speed-160 {
+    transform: rotate(160deg);
+}.speed-170 {
+    transform: rotate(170deg);
+}.speed-180 {
+    transform: rotate(180deg);
+}
+
+.accelerate-container{
+    margin-top:120px;
+    text-align:center;
+    
+}
+
+.accelerate-container button{
+    width:200px;
+    height:60px;
+    border:none;
+    border-radius:5px;
+    margin:20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor:pointer;
+    box-shadow:5px 5px 5px #545574;
+    color:white;
+}
+
+.accelerate-container button:active{
+    box-shadow:5px 5px 5px #04356d;
+
+}
+.increase{
+    background-color: #087c59;
+}
+.decrease{
+    background-color: #5e0e0e;
+}
+
