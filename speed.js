@@ -46,3 +46,8 @@ function changeText(){
     el.innerText = speed;
 
 }
+
+ //Bu JavaScript kodu, bir hızölçerin hızını artırmak ve azaltmak için 2 fonksiyon (increaseSpeed ve decreaseSpeed),
+ //hız değişkenine dayalı bir sınıf oluşturmak ve eski sınıfı kaldırarak bu sınıfı uygulamak için bir fonksiyon (addClass), 
+ //aktif olan hızölçer ölçeğini değiştirmek için bir fonksiyon (changeActive)
+ // hız değerini göstermek için fonksiyon (changeText) içermektedir.
