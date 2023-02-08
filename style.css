@@ -104,7 +104,9 @@
 }
 .speedometer-scale-19{
     transform: rotate(90deg);
-
+    height: 244px;
+    top:25px;
+    left:161px;
 }
 
 .speedometer-scale-1.active{
@@ -160,7 +162,7 @@
 
 }
 .speedometer-scale-14.active{
-    background-color: #c5440d;
+    background-color: #bc3e04;
 
 }
 
@@ -172,18 +174,18 @@
     background-color: #a11607;
 
 }
-.speedometer-scale-1.active{
-    background-color: #f00606;
+.speedometer-scale-17.active{
+    background-color: #a11607;
 
 }
-.speedometer-scale-1.active{
-    background-color: #c50d0d;
+.speedometer-scale-18.active{
+    background-color: #a11607;
 
 }
-.speedometer-scale-1.active{
-    background-color: #ff0505;
-
+.speedometer-scale-19.active{
+    background-color: #a11607;
 }
+
 
 .speedometer-center-hide{
     width:250px;
@@ -301,3 +303,27 @@
     background-color: #5e0e0e;
 }
 
+.speedometer-text{
+    width: 150px;
+    position: absolute;
+    z-index: 20;
+    left:73px;
+    top:60px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.static{
+    font-size: 18px;
+}
+.dynamic{
+    margin-top:10px;
+}
+
+.km{
+    font-size:30px;
+}
+.unit{
+    font-size:15px;
+    margin-left:5px;
+}
